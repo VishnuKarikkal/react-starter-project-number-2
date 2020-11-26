@@ -1,0 +1,44 @@
+:root
+{
+    --primary-backg-color:#000;
+    --primary-text-color:#fff;
+    --secondary-text-color:#01bf71;
+    --primary-icon-color:#fff;
+    --secondary-icon-color:rgba(249, 245, 83, 1);
+}
+
+.info-container
+{
+    color: var(--primary-text-color);
+    background-color: var(--primary-backg-color);
+    justify-content: center;
+    padding: 2%;
+}
+.info-container .row 
+{
+    width: fit-content;
+    justify-content: center;
+    padding: 3%;
+}
+.info-container h1
+{
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-top: 5px;
+    justify-content: center;
+}
+.info-container img
+{
+    width: 80%;
+    height: 80%;
+    /* margin: 0 0 10px 0; */
+    padding-right:0 ;
+}
+
+@media screeen and (max-width:768px)
+{
+    .info-container
+{
+    padding: 100px 0;
+}
+}
