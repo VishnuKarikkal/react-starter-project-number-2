@@ -6,3 +6,36 @@
     --primary-icon-color:#fff;
     --secondary-icon-color:rgba(249, 245, 83, 1);
 }
+
+.services
+{
+    padding-top: 5px;
+    background-color: var(--primary-backg-color);
+}
+.services h1
+{
+    color: var(--secondary-text-color);
+}
+.services .container
+{
+    width: 80%;
+}
+.card
+{
+    width: 13rem;
+    height: 15rem;
+    margin: 5px auto;
+    box-shadow: 1px 2px 4px var(--secondary-text-color);
+    transition: all 0.2s ease-in-out;
+}
+.card:hover
+{
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+.card img
+{
+    width: 50%;
+    height: 50%;
+    margin: 5px auto;
+}

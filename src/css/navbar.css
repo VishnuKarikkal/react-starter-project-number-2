@@ -5,11 +5,14 @@
     --secondary-text-color:#01bf71;
     --primary-icon-color:#fff;
     --secondary-icon-color:rgba(249, 245, 83, 1);
+    --nav-font:  'Nerko One', cursive;
+    --primary-font: 'Berkshire Swash', cursive;
 }
 
 nav
 {
     background-color: var(--primary-backg-color);
+    font-family: var(--nav-font);
 }
 nav a
 {

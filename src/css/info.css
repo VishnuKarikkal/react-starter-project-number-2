@@ -34,6 +34,14 @@
     /* margin: 0 0 10px 0; */
     padding-right:0 ;
 }
+.col-content
+{
+    text-transform: capitalize;
+}
+.info-container button
+{
+    text-transform: capitalize;
+}
 
 @media screeen and (max-width:768px)
 {

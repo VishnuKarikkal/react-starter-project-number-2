@@ -22,7 +22,7 @@ function InfoSection() {
                 <div className="col-md-6 text-center">
                     <div className="col-content">
                         <img src={img1} alt={homeObjectOne.alt}></img>
-                        <p>{homeObjectOne.desc}</p>
+                        {/* <p>{homeObjectOne.desc}</p> */}
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function InfoSection() {
                  <div className="col-md-6 text-center">
                     <div className="col-content">
                         <img src={img2} alt={homeObjectTwo.alt}></img>
-                        <p>{homeObjectTwo.desc}</p>
+                        {/* <p>{homeObjectTwo.desc}</p> */}
                     </div>
                 </div>
                 <div className="col-md-6 text-center">
@@ -63,7 +63,7 @@ function InfoSection() {
                 <div className="col-md-6 text-center">
                     <div className="col-content">
                         <img src={img3} alt={homeObjectThree.alt}></img>
-                        <p>{homeObjectThree.desc}</p>
+                        {/* <p>{homeObjectThree.desc}</p> */}
                     </div>
                 </div>
             </div>

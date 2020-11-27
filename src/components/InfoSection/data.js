@@ -24,7 +24,7 @@ export const homeObjectTwo =
 
 export const homeObjectThree = 
 {
-    id:'signp',
+    id:'signup',
     topLine:'Signup for Adventures',
     headLine:'why waiting?',
     subtitle:'🤠',
