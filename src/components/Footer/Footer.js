@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className="footer container-fluid">
             
-                <div className="row  text-center no-gutters py-3">
+                <div className="row container text-center no-gutters py-3 mx-auto">
                     <div className="col-6 col-sm-6 col-lg-3">
                         <h5 className="py-2">About us</h5>
                         <ul>
@@ -40,14 +40,14 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="row align-items-center justify-content-center py-3">
-                    <div className="col-4">
+                <div className="row align-items-center text-center justify-content-center py-3">
+                    <div className="col-sm-4">
                         <h2>🤩🤩</h2>
                     </div>
-                    <div className="col-5 col-sm-5">
+                    <div className="col-sm-5">
                         <h6> &copy; 2020</h6>
                     </div>
-                    <div className="col-2">
+                    <div className="col-sm-2">
                     <FaFacebook /> &nbsp; <FaInstagram /> &nbsp; <FaGithub />
                     </div>
                 </div>
