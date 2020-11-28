@@ -16,7 +16,8 @@ nav
 }
 nav a
 {
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
+    font-size: 23px;
 }
 nav a:active
 {

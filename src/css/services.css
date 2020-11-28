@@ -15,6 +15,7 @@
 .services h1
 {
     color: var(--secondary-text-color);
+    font-family: var(--hero-font);
 }
 .services .container
 {
@@ -27,6 +28,17 @@
     margin: 5px auto;
     box-shadow: 1px 2px 4px var(--secondary-text-color);
     transition: all 0.2s ease-in-out;
+    background-color: var(--secondary-icon-color);
+}
+.card h5
+{
+    font-family: var(--tertiary-font);
+    color: var(--secondary-text-color);
+}
+.card p
+{
+    font-family: var(--nav-font);
+    color: var(--primary-text-color);
 }
 .card:hover
 {

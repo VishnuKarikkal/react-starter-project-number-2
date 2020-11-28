@@ -25,16 +25,22 @@ text-align: right;
 }
 .footer h5
 {
-    font-size: 16px;
+    font-size: 17px;
     text-transform: uppercase;
     border-bottom: 1px solid var(--secondary-icon-color);
     width: fit-content;
     margin: 0 auto;
+    font-family: var(--nav-font);
+}
+.footer h6
+{
+    font-family: var(--hero-font);
 }
 .footer li
 {
     font-size:14px;
     text-transform: capitalize;
+    font-family: var(--tertiary-font);
 }
 @media screen and (max-width:480px)
 {

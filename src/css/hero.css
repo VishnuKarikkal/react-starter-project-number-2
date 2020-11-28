@@ -5,7 +5,9 @@
     --secondary-text-color:#01bf71;
     --primary-icon-color:#fff;
     --secondary-icon-color:rgba(249, 245, 83, 1);
-    --primary-font:'Berkshire Swash', cursive;
+    --hero-font:'Piedra', cursive;
+    --secondary-font:'Berkshire Swash', cursive;
+    --tertiary-font:'Lobster', cursive;
 }
 
 .hero
@@ -56,12 +58,13 @@
     color:var(--primary-text-color);
     font-size: 48px;
     text-align: center;
-    font-family:var(--primary-font) ;
+    font-family:var(--hero-font)
 }
 .hero-content p
 {
     margin-top: 24px;
     color: var(--primary-text-color);
+    font-family: var(--tertiary-font);
     font-size: 24px;
     text-align: center;
     max-width: 600px;
@@ -73,6 +76,7 @@
     flex-direction: column;
     align-items: center;
     background-color: rgba(255, 42, 96, 1);
+    font-family: var(--tertiary-font);
 }
 .hero button:hover
 {

@@ -26,6 +26,11 @@
     line-height: 1.1;
     margin-top: 5px;
     justify-content: center;
+    font-family: var(--primary-font);
+}
+.info-container p
+{
+    font-family: var(--tertiary-font);
 }
 .info-container img
 {
@@ -41,6 +46,7 @@
 .info-container button
 {
     text-transform: capitalize;
+    font-family: var(--nav-font);
 }
 
 @media screeen and (max-width:768px)
