@@ -47,7 +47,7 @@ function Footer() {
                     <div className="col-sm-5">
                         <h6> &copy; 2020</h6>
                     </div>
-                    <div className="col-sm-2">
+                    <div className="col-sm-2 icons">
                     <FaFacebook /> &nbsp; <FaInstagram /> &nbsp; <FaGithub />
                     </div>
                 </div>

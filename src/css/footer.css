@@ -42,7 +42,7 @@ text-align: right;
     text-transform: capitalize;
     font-family: var(--tertiary-font);
 }
-.footer .col-2
+.footer .icons
 {
     color: var(--secondary-text-color);
 }

@@ -9,11 +9,18 @@
     --primary-font: 'Berkshire Swash', cursive;
 }
 
+body
+{
+    background-color: var(--primary-backg-color);
+}
 nav
 {
     background-color: var(--primary-backg-color);
     font-family: var(--nav-font);
+    /* background-color: transparent; */
+    margin-top: -80px;
 }
+
 nav a
 {
     color: var(--primary-text-color);

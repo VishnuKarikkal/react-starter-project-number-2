@@ -6,9 +6,10 @@ import {Link as LinkS} from 'react-scroll';
 //import {Nav,NavbarContainer,NavLogo} from './NavbarElements'; (switched to css)
 
 function Navbar() {
+    
     return (
        <>
-       <nav class="navbar navbar-expand-lg  sticky-top">
+       <nav id='nav' class="navbar navbar-expand-lg  sticky-top">
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
