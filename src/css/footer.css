@@ -42,6 +42,11 @@ text-align: right;
     text-transform: capitalize;
     font-family: var(--tertiary-font);
 }
+.footer .col-2
+{
+    color: var(--secondary-text-color);
+}
+
 @media screen and (max-width:480px)
 {
     .footer h1,h6

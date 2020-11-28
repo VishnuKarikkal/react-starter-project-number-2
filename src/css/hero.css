@@ -55,7 +55,7 @@
 
 .hero-content h1
 {
-    color:var(--primary-text-color);
+    color:var(--secondary-text-color);
     font-size: 48px;
     text-align: center;
     font-family:var(--hero-font)
